@@ -92,6 +92,7 @@ a.social-link.social-link--github:hover {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr auto;
     }
+
     .container > * {
         grid-column: 1 / -1;
     }
@@ -132,7 +133,7 @@ a.social-link.social-link--github:hover {
 
     .container main {
         grid-column: 2 / 7;
-        grid-row: 1 / 2;
+        grid-row: 2 / 2;
     }
 
     .container aside {

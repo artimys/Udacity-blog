@@ -1,0 +1,32 @@
+@import "shared/defaults.css";
+@import "shared/layout.css";
+@import "shared/components.css";
+
+#contact {
+    display: grid;
+    grid-template-areas:
+        "title"
+        "form"
+        "info";
+    margin: 0;
+}
+
+#contact-title {
+    grid-area: title;
+}
+
+#contact-form {
+    grid-area: form;
+}
+
+#contact-info {
+    grid-area: info;
+}
+
+@media (min-width: 700px) {
+    #contact {
+        grid-template-areas:
+            "title title"
+            "form info";
+    }
+}

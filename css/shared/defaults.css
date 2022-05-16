@@ -85,7 +85,8 @@ label {
     font-weight: bold;
 }
 
-input {
+input,
+textarea {
     padding: 10px;
     border-radius: 5px;
 }

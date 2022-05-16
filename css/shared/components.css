@@ -92,6 +92,15 @@
     text-align: center;
 }
 
+/* FORMS */
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    padding-bottom: 5px;
+}
+
 /* POST BLOG PAGE */
 .post {
     margin-top: 50px;

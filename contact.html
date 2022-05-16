@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About | Arty's Personal Blog</title>
+        <title>Contact | Arty's Personal Blog</title>
         <link rel="stylesheet" href="fonts/fontawesome-free-6.1.1-web/css/all.min.css">
-        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/contact.css">
     </head>
     <body>
         <div class="container">
@@ -41,31 +41,53 @@
             </header>
 
             <main>
-                <article class="post">
-                    <h1>Hello, I'm Arturo Simon</h1>
+                <article id="contact" class="post">
+                    <h1 id="contact-title">Contact</h1>
 
-                    <section class="post-section">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eveniet! Labore esse ipsa consectetur, nulla ut tenetur eveniet eaque minus! Porro animi, sed assumenda quo ab eum sequi atque eius?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eveniet! Labore esse ipsa consectetur, nulla ut tenetur eveniet eaque minus! Porro animi, sed assumenda quo ab eum sequi atque eius?</p>
+                    <section id="contact-form" class="post-section">
+                        <h2 class="post-sub-title">Send me a message</h2>
+
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="name">Full name:</label>
+                                <input id="name" type="text" placeholder="first and last" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input id="email" type="text" placeholder="your email" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message:</label>
+                                <textarea id="message" placeholder="message" rows="4" cols="30" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
                     </section>
 
-                    <section class="post-section">
-                        <h2 class="post-sub-title">What attracted me to tech</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis corporis, nemo voluptas labore repudiandae qui, ipsam at vero excepturi earum animi non assumenda provident. Quibusdam rem expedita eveniet consectetur sint!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem perferendis dolores fugiat, voluptatum quibusdam dicta magnam quos minus sunt. Quidem a delectus repellendus placeat excepturi ab. Pariatur facere hic amet? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, debitis magnam! Asperiores, officiis, maiores animi earum fugit cum laboriosam, adipisci sit molestiae veniam aut temporibus recusandae fugiat voluptate corporis blanditiis?</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ducimus optio, placeat nulla illo consectetur eaque neque totam, odio tempore, ratione voluptates quos ad sequi doloribus architecto reprehenderit. Neque, recusandae.</p>
-                    </section>
-
-                    <section class="post-section">
-                        <h2 class="post-sub-title">My interests</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci magnam fuga repellendus maiores. Laborum velit ducimus distinctio reprehenderit voluptate. Ipsam, dicta repellendus itaque ut eligendi ab dolorum repudiandae quibusdam facilis.</p>
+                    <section id="contact-info" class="post-section">
+                        <h2 class="post-sub-title">Other ways to connect</h3>
                         <p>
                             <ul>
-                                <li>Learning new tech</li>
-                                <li>Programming</li>
-                                <li>Playing Guitar</li>
-                                <li>Video games</li>
-                                <li>Hiking</li>
+                                <li>
+                                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com" target="_blank">Github</a>
+                                </li>
+                                <li>
+                                    Phone (US): <a href="tel:+1234567890">(123) 456-7890</a>
+                                </li>
+                                <li>
+                                    Email: <a href="mailto:xxxxxxx@gmail.com">xxxxxxx@gmail.com</a>
+                                </li>
                             </ul>
                         </p>
                     </section>

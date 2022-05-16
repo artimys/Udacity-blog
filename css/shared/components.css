@@ -70,6 +70,8 @@
     list-style-type: none;
     font-weight: bold;
     color: #888;
+    margin: 0;
+    padding: 0;
 }
 
 .card.card-author .card-avatar {
@@ -88,4 +90,19 @@
 .card.card-author .card-footer {
     padding-top: 0;
     text-align: center;
+}
+
+/* POST BLOG PAGE */
+.post {
+    margin-top: 50px;
+}
+
+.post h1 {
+    font-size: 45px;
+    margin-top: 80px;
+    color: var(--dark-red);
+}
+
+.post-section p {
+    margin: 20px 0;
 }

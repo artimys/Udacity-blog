@@ -4,7 +4,7 @@
     --yellow: #edd892;
     --dark-brown: #352a00;
     --dark-brown2: #4c4637;
-    --dark-red: #AF4C38;
+    --dark-red: #Af4c38;
     --dark-red-hover: #b13921;
     --orange: #f89151;
     --orange-hover: #e27734;
@@ -27,8 +27,6 @@
 *:before,
 *:after {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -51,7 +49,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 h3 {
@@ -61,6 +59,7 @@ h3 {
 
 p {
     line-height: 23px;
+    margin-bottom: 15px;
 }
 
 a {
@@ -79,7 +78,7 @@ a:hover {
     text-decoration: underline;
 }
 
-quote {
+q {
 }
 
 label {

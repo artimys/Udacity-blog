@@ -1,0 +1,17 @@
+@import "shared/defaults.css";
+@import "shared/layout.css";
+@import "shared/components.css";
+
+.blog-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px 20px;
+}
+
+@media (min-width: 700px) {
+    .blog-list {
+        /* grid-template-columns: 1fr 1fr; */
+        grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+        justify-content: space-evenly;
+    }
+}

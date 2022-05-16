@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+:root {
+    --yellow: #edd892;
+    --dark-brown: #352a00;
+    --dark-brown2: #4c4637;
+    --dark-red: #AF4C38;
+    --dark-red-hover: #b13921;
+    --orange: #f89151;
+    --orange-hover: #e27734;
+
+    --body-color: #5a502b;
+    --layout-bg-white: #f6f6f6;
+    --header-bg-color: var(--yellow);
+    --footer-bg-color: var(--dark-brown2);
+    --button-bg-primary: var(--orange);
+    --button-bg-primary-hover: var(--orange-hover);
+    --button-bg-secondary: var(--dark-red);
+    --button-bg-secondary-hover: var(--dark-red-hover);
+
+    --facebook-color: #4267b2;
+    --twitter-color: #1da1f2;
+    --github-color: #333;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: var(--body-color);
+    background-color: var(--layout-bg-white);
+    margin: 0;
+}
+
+/* TODO At least 3 unique properties for each typography selector */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 20px 0 15px;
+}
+
+p {
+    line-height: 23px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+a:visited,
+a:focus {
+    font-weight: bold;
+    color: var(--orange);
+}
+
+a:hover {
+    color: var(--orange-hover);
+    text-decoration: underline;
+}
+
+quote {
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,91 @@
+.btn {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--button-bg-primary);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--button-bg-primary-hover);
+}
+
+.btn-secondary {
+    background-color: var(--button-bg-secondary);
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: var(--button-bg-secondary-hover);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgb(218, 214, 214);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 15px 23px 3px rgb(0 0 0 / 10%)
+}
+
+.card-header img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 15px;
+    flex: 1;
+}
+
+.card-posted {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: #888;
+}
+
+.card-footer {
+    padding: 15px;
+}
+
+/* AUTHOR CARD */
+.card.card-author .card-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+}
+
+.card.card-author .card-title {
+    margin: 0;
+}
+
+.card.card-author .card-header ul {
+    list-style-type: none;
+    font-weight: bold;
+    color: #888;
+}
+
+.card.card-author .card-avatar {
+    width: 125px;
+    height: 125px;
+    margin: 0 auto 15px;
+    background-image: url("/images/author.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px solid #444;
+}
+
+.card.card-author .card-body,
+.card.card-author .card-footer {
+    padding-top: 0;
+    text-align: center;
+}

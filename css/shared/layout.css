@@ -66,6 +66,10 @@
     color: var(--dark-brown);
 }
 
+.navbar a.navbar-main-active {
+    border-bottom: 3px solid var(--orange);
+}
+
 /* SOCIAL LINKS */
 a.social-link {
     opacity: 0.7;

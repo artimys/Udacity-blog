@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascript cheatsheet for DOM manipulation| Arty's Blog</title>
+        <link rel="stylesheet" href="fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+        <link rel="stylesheet" href="css/blog.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header-bg"></div>
+
+            <header>
+                <section class="logo-container">
+                    <h1 class="logo-title">
+                        Arty's Blog
+                    </h1>
+                </section>
+
+                <section class="navbar-container">
+                    <nav class="navbar navbar-main">
+                        <a href="/">Home</a>
+                        <a href="/about.html">About</a>
+                        <a href="/contact.html">Contact</a>
+                    </nav>
+
+                    <nav class="navbar navbar-social">
+                        <a href="https://facebook.com" target="_blank" class="social-link social-link--facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link social-link--twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" class="social-link social-link--github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </nav>
+                </section>
+            </header>
+
+            <main>
+                <article class="post">
+                    <h1>Javascript cheatsheet for DOM manipulation</h1>
+
+                    <section class="post-section">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eveniet! Labore esse ipsa consectetur, nulla ut tenetur eveniet eaque minus! Porro animi, sed assumenda quo ab eum sequi atque eius?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eveniet! Labore esse ipsa consectetur, nulla ut tenetur eveniet eaque minus! Porro animi, sed assumenda quo ab eum sequi atque eius?</p>
+                    </section>
+
+                    <section class="post-section">
+                        <h2 class="post-sub-title">1) Find / select elements</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis corporis, nemo voluptas labore repudiandae qui, ipsam at vero excepturi earum animi non assumenda provident. Quibusdam rem expedita eveniet consectetur sint!</p>
+                        <p>
+                            <ul>
+                                <li><code>.querySelector()</code></li>
+                                <li><code>.querySelectorAll()</code></li>
+                                <li><code>.getElementsByClassName()</code></li>
+                                <li><code>.getElementsByTagName()</code></li>
+                                <li><code>.getElementById()</code></li>
+                            </ul>
+                        </p>
+                    </section>
+
+                    <section class="post-section">
+                        <h2 class="post-sub-title">2) Update content</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci magnam fuga repellendus maiores. Laborum velit ducimus distinctio reprehenderit voluptate. Ipsam, dicta repellendus itaque ut eligendi ab dolorum repudiandae quibusdam facilis.</p>
+                        <p>
+                            <ul>
+                                <li>.innerHTML</li>
+                                <li>.outerHTML</li>
+                                <li>.textContent</li>
+                            </ul>
+                        </p>
+                    </section>
+
+                    <section class="post-section">
+                        <h2 class="post-sub-title">3) Add content</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci magnam fuga repellendus maiores. Laborum velit ducimus distinctio reprehenderit voluptate. Ipsam, dicta repellendus itaque ut eligendi ab dolorum repudiandae quibusdam facilis.</p>
+                        <p>
+                            <ul>
+                                <li>.createElement('tag')</li>
+                                <li>.appendChild()</li>
+                                <li>.createTextNode()</li>
+                                <li>.insertAdjacementHTML()</li>
+                            </ul>
+                        </p>
+                    </section>
+
+                    <section class="post-section">
+                        <h2 class="post-sub-title">4) Remove content</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci magnam fuga repellendus maiores. Laborum velit ducimus distinctio reprehenderit voluptate. Ipsam, dicta repellendus itaque ut eligendi ab dolorum repudiandae quibusdam facilis.</p>
+                        <p>
+                            <ul>
+                                <li>.removeChild()</li>
+                                <li>.remove()</li>
+                                <li>.firstElementChild</li>
+                                <li>.parentElement</li>
+                            </ul>
+                        </p>
+                    </section>
+
+                    <section class="post-section">
+                        <h2 class="post-sub-title">5) Style content</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci magnam fuga repellendus maiores. Laborum velit ducimus distinctio reprehenderit voluptate. Ipsam, dicta repellendus itaque ut eligendi ab dolorum repudiandae quibusdam facilis.</p>
+                        <p>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Property</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>.style.<i>property</i></td>
+                                        <td>Modify individual styles</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.style.cssText</td>
+                                        <td>update multiple styles at once</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.className</td>
+                                        <td>get/set list of classes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>.classList</td>
+                                        <td>get/set/toggle CSS classes</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                    </section>
+                </article>
+            </main>
+
+            <aside>
+                <div class="card card-author">
+                    <div class="card-header">
+                        <div class="card-avatar">
+                        </div>
+
+                        <div class="card-bio">
+                            <h3 class="card-title">Arturo Simon</h3>
+                            <ul>
+                                <li>
+                                    <small>Felix Storch, Inc</small>
+                                </li>
+                                <li>
+                                    <small>Developer</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="card-content">
+                            <p>Lorem ipsum Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                            <p>Lorem ipsum Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <a href="about.html" class="">Read more</a>
+                    </div>
+                </div>
+            </aside>
+
+            <footer>
+                <form>
+                    <h3>
+                        <label for="email">Sign up for the latest news</label>
+                    </h3>
+                    <input id="email" type="text" placeholder="your email" required />
+                    <button class="btn btn-secondary">Subscribe</button>
+                </form>
+
+                <nav class="navbar">
+                    <a href="https://facebook.com" target="_blank" class="social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        Facebook
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-link">
+                        <i class="fa-brands fa-twitter"></i>
+                        Twitter
+                    </a>
+                    <a href="https://github.com" target="_blank" class="social-link">
+                        <i class="fa-brands fa-github"></i>
+                        Github
+                    </a>
+                </nav>
+            </footer>
+        </div>
+    </body>
+</html>

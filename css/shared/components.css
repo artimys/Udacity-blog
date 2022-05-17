@@ -6,22 +6,26 @@
     cursor: pointer;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary:visited {
     background-color: var(--button-bg-primary);
     color: #fff;
 }
 
 .btn-primary:hover {
     background-color: var(--button-bg-primary-hover);
+    color: #fff;
 }
 
-.btn-secondary {
+.btn-secondary,
+.btn-secondary:visited {
     background-color: var(--button-bg-secondary);
     color: #fff;
 }
 
 .btn-secondary:hover {
     background-color: var(--button-bg-secondary-hover);
+    color: #fff;
 }
 
 .card {
@@ -116,4 +120,20 @@
 
 .post-section p {
     margin: 20px 0;
+}
+
+.post-section ul li {
+    margin: 10px 0;
+}
+
+/* TABLE */
+.table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table th,
+.table td {
+    border: 1px solid gray;
+    padding: 5px;
 }

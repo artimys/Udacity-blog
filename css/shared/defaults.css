@@ -38,22 +38,19 @@ body {
 }
 
 /* TODO At least 3 unique properties for each typography selector */
-h1,
-h2,
-h3 {
-    font-weight: bold;
-}
-
 h1 {
     font-size: 64px;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 30px;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 24px;
+    font-weight: bold;
     margin: 20px 0 15px;
 }
 

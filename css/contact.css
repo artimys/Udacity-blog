@@ -23,7 +23,7 @@
     grid-area: info;
 }
 
-@media (min-width: 700px) {
+@media screen and (min-width: 700px) {
     #contact {
         grid-template-areas:
             "title title"

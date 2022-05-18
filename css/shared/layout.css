@@ -91,7 +91,7 @@ a.social-link.social-link--github:hover {
     color: var(--github-color);
 }
 
-@media (min-width: 700px) {
+@media screen and (min-width: 700px) {
     .container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr auto;
@@ -102,7 +102,7 @@ a.social-link.social-link--github:hover {
     }
 }
 
-@media (min-width: 970px) {
+@media screen and (min-width: 970px) {
     .container {
         /* max width of 6 columns is 1700px */
         grid-template-columns:

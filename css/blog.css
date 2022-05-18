@@ -3,5 +3,5 @@
 @import "shared/components.css";
 
 
-@media (min-width: 700px) {
+@media screen and (min-width: 700px) {
 }

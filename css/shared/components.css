@@ -135,6 +135,20 @@
     margin: 10px 0;
 }
 
+.post-section figure {
+    margin: 0 0 40px;
+}
+
+.post-section figure img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.post-section figure figcaption{
+    font-size: 13px;
+    font-style: italic;
+}
+
 /* TABLE */
 .table {
     border-collapse: collapse;

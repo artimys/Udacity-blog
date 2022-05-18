@@ -158,6 +158,17 @@
     font-style: italic;
 }
 
+.post-section.post-intro {
+    margin-bottom: 5px;
+}
+
+.post-section.post-share {
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
 /* TABLE */
 .table {
     border-collapse: collapse;

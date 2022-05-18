@@ -107,6 +107,15 @@
     margin-bottom: 10px;
 }
 
+/* SIDEBAR CARD */
+.card.card-sidebar {
+    margin-top: 50px;
+}
+
+.card.card-sidebar h3 {
+    text-align: center;
+}
+
 /* FORMS */
 .form-group {
     margin-bottom: 20px;
@@ -159,4 +168,13 @@
 .table td {
     border: 1px solid gray;
     padding: 5px;
+}
+
+/* LIST */
+.list {
+    margin-left: 0;
+}
+
+.list li {
+    padding-bottom: 10px;
 }

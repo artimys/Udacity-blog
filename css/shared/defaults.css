@@ -77,7 +77,37 @@ a:hover {
     text-decoration: underline;
 }
 
-q {
+blockquote {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 50px 0;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+blockquote::before,
+blockquote::after {
+    position: absolute;
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+blockquote::before {
+    top: -30px;
+    left: -10px;
+    content: "\201C";
+}
+
+blockquote::after {
+    bottom: -25px;
+    right: -10px;
+    content: "\201D";
 }
 
 code {
